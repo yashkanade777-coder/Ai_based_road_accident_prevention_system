@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data & logs
+data/*.db
+data/*.jpg
+data/*.png
+data/*.jpeg
+
+# Model weights (large binary files — downloaded via download_models.py)
+models/face_landmarker.task
+models/yolov8n.pt
+
+# IDE & OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Misc
+*.log
+*.tmp
+*.bak
